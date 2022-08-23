@@ -1,0 +1,23 @@
+h1 {
+  color: cyan;
+}
+.main h1 {
+  color: red;
+}
+
+.main > p {
+  color: blue;
+}
+/* + predstavlja prvi elemnt nakon diva a ne svaki sledeci */
+/* > sluzi samo za p unutar kontejnera */
+/* id ima prednost u odnosu na klasu */
+
+.main + p {
+  color: darkred;
+}
+#childdiv {
+  background-color: green;
+}
+.chailddivclass {
+  background-color: red;
+}

@@ -1,0 +1,19 @@
+body {
+  font-size: 20px;
+}
+
+.main {
+  width: 500px;
+  height: 400px;
+  overflow: auto;
+  background-color: aquamarine;
+  background-color: rgb(32, 17, 107);
+}
+.main h2 {
+  background-color: bisque;
+}
+
+.main p {
+  color: blue;
+  text-align: center;
+}

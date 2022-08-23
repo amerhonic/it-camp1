@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+}
+/* zvezdica se margin 0 se koristi da ukine marginu sa sajta */
+p {
+  text-align: center;
+  /* text ident je navlacenje ka na pismeni */
+  /* justify da poravna razmake */
+}
+p:hover {
+  background-color: aqua;
+  color: rgb(215, 50, 25);
+}
+.main {
+  width: 400px;
+  height: 300px;
+  background-color: rgb(98, 21, 180);
+  padding: 20px 7px 15px;
+  margin: 30px auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 10px rgb(8, 77, 77) solid;
+  border-radius: 10px;
+  box-shadow: 17px 17px 20px rgba(0, 0, 0, 1);
+  /* box shadow je za shadow od kartice,3 vrednosti jedna je za debljinu shadowa druga je za duzinu te senke */
+  /* margin auto se odnosi samo na horizontalu */
+
+  /* margin: 30px; */
+  /* margin-top: 20px; */
+  /* margin-left: 35px; */
+  /* margin-bottom: 20px; */
+  /* border je linija oko diva  */
+  /* pading je razmak izmedju teksta i bordera */
+  /* marmgin je razmak koji je oko diva i odvaja div od contenta van */
+  /* kad se unesu 4 vrednosti ide se kazaljkom na satu */
+  /*kada se unesu 2 vrednosti ide se prvo gore dole pa levo desno  */
+}
+button {
+  height: 40px;
+  width: 300px;
+  margin-left: 120px;
+  /* dugme se oblikuje padingom,height width itd */
+}
+/*preko cssa se dodaje slika preko kontenta , content:url("./putanja do fotografije)  */
+/* za domaci da se napravi kartica sa slikom pre titla i border top left radius i border top right radius,hover image i ,text align centar:sirina kartice:400px,visinu:600px,h1 naslov,podnaslov velicine h3,padding izmedju h1 i h3 produktivno mafija text align last moze,uz justify je lepse  */
