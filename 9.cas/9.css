@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(29, 29, 29);
+}
+
+.main {
+  width: 400px;
+  height: 650px;
+  margin: 30px auto;
+  background-color: whitesmoke;
+  border: 1px;
+  border-radius: 15px;
+  text-align: center;
+  /* text transform je upper case sva velika slova */
+  /* capitlize je za svaku rec prvo veliko */
+}
+
+.slika {
+  height: 240px;
+  margin-bottom: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.slika {
+  background-image: url(https://mattmakes.org/wp-content/uploads/2020/09/style-yellow-ferrari-2020-price.jpg);
+  background-size: cover;
+}
+h1 {
+  padding-bottom: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main p {
+  text-align: justify;
+  padding: 10px;
+  padding-bottom: 9px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main a {
+  display: block;
+  background-color: rgb(211, 209, 147);
+  color: white;
+  padding: 10px 15px;
+}
+.main:hover {
+  background-color: rgb(62, 62, 62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.75s ease;
+}
+.slika:hover {
+  background-image: url(https://www.supercars.net/blog/wp-content/uploads/2020/07/2020-Ferrari-F8-Spider-003-1600.jpg);
+  cursor: pointer;
+  transition: 0.75s ease;
+  /* display: inline-block; da poredjam kontejnere jedan pored drugog */
+}
