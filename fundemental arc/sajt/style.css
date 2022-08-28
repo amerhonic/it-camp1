@@ -40,3 +40,6 @@ body {
   border: 1px;
   border-color: orange;
 }
+.section {
+  display: inline-block;
+}
