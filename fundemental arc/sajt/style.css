@@ -1,0 +1,42 @@
+body {
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.glava {
+  padding-top: 20px;
+  display: inline-flex;
+  text-align: right;
+  width: 100%;
+  margin-left: 50px;
+}
+.linkovi ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.linkovi li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.linkovi a {
+  text-decoration: none;
+  display: block;
+  padding-top: 20px;
+  text-align: end;
+  color: black;
+}
+.linkovi {
+  display: inline;
+  margin-left: 800px;
+}
+.linkovi a {
+}
+#search {
+  display: inline-block;
+  margin-left: 22px;
+  padding-top: 20px;
+  border: 1px;
+  border-color: orange;
+}
