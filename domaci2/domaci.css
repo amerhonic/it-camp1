@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: #fff7e7;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.main {
+  width: 400px;
+  height: 600px;
+  margin: 30px auto;
+  background-color: rgb(148, 215, 184);
+  border: 1px;
+  border-radius: 0px;
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+  /* text transform je upper case sva velika slova */
+  /* capitlize je za svaku rec prvo veliko */
+}
+
+.slika {
+  height: 200px;
+  margin-bottom: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.slika {
+  background-image: url(https://wallpaperaccess.com/full/2056380.jpg);
+  background-size: cover;
+}
+h3 {
+  text-align: left;
+  margin-left: 20px;
+}
+h3 :nth-of-type(2) {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.main p {
+  text-align: justify;
+  padding: 10px;
+  padding-bottom: 9px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.main a {
+  display: block;
+  background-color: rgb(211, 209, 147);
+  color: white;
+  padding: 10px 15px;
+}
+
+#iks {
+  padding-right: 7px;
+}
+#oks {
+  padding-right: 7px;
+}
+#luks {
+  padding-right: 7px;
+}
+#maks {
+  padding-right: 13px;
+}
+#lok {
+  padding-right: 7px;
+}
+.naslov h2 {
+  text-align: left;
+  margin-left: 15px;
+}
