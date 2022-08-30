@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+}
+.main {
+  margin: auto;
+  width: 300px;
+  height: 200px;
+  background-color: aqua;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.main:nth-of-type(2) {
+  display: none;
+}
+
+/* .main:nth-of-type(2) {
+  background-color: brown;
+}
+.main:nth-of-type(3) {
+  background-color: rgb(85, 244, 167);
+} */
+.main p {
+  line-height: 25px;
+}
+/* line height razmak izmedju redova */
+/* ima i furka visibility none al nece da se pomeri na mesto ovoga */
+/* ako je display inline ne moze da se definise padding sirina visina i margina gde si se krilala */
+/* background size contain siri fotografiju dok se ona ne ispuni posle staje,cover siri do kraja  */
+.second {
+  margin: auto;
+  width: 700px;
+  height: 450px;
+  background-color: bisque;
+  background-image: url(https://www.google.com/maps/vt/data=DHCB-VDDrZC-EPOXyyeRudIGlqix2_rFAdfvLGM4TAKDejud0KZGa0oqXtTrSCldJvNt__sjzPkvMkSNrSczYdaJpm_jHB1gb_RY1E764RRaSOZXAPc9-h1OrznxYoRtpK8KWvBZrdYeQ9bqJggeVSwpcG4wHabPTAbJRdIwUvVeCs8T8MSxmRIQT69LnO8lYwV1SV4kTbWOnN-XvmwMW6nfwBvG4XeOpTYmdNjqdBN0ntTyc4K15ovh);
+  background-size: cover;
+}
