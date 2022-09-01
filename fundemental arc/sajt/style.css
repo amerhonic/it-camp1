@@ -100,6 +100,7 @@ a {
   justify-content: center;
   margin-right: 57px;
   margin-left: 57px;
+  padding-bottom: 80px;
 }
 .kartica {
   height: 450px;
@@ -173,4 +174,8 @@ a {
   border-color: #f95c19;
   border-radius: 4px;
   cursor: pointer;
+}
+.slicice {
+  padding-top: 50px;
+  display: inline-flex;
 }
