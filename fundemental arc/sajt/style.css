@@ -6,6 +6,7 @@
 body {
   background-color: #fff7e7;
   font-family: Georgia, "Times New Roman", Times, serif;
+  width: 97%;
 }
 li a button {
   font-weight: 500;
@@ -196,4 +197,28 @@ a {
 .slicice h1 {
   color: #f95c19;
   margin-bottom: 5px;
+}
+.videoslika {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-left: 10px;
+  margin-right: 73px;
+  width: 100%;
+  text-align: center;
+}
+.videoslika img {
+  height: 450px;
+  border: 1px;
+  border-radius: 1px;
+}
+.kunuseljudi {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+.tekstic {
+  text-align: center;
+}
+.tekstic h5 {
+  padding-bottom: 7px;
+  color: #f95c19;
 }
