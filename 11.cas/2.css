@@ -26,11 +26,13 @@
 /* ima i furka visibility none al nece da se pomeri na mesto ovoga */
 /* ako je display inline ne moze da se definise padding sirina visina i margina gde si se krilala */
 /* background size contain siri fotografiju dok se ona ne ispuni posle staje,cover siri do kraja  */
+/* jenda vrednost predstavlja sirinu , druga na visinu [background size] */
 .second {
   margin: auto;
   width: 700px;
   height: 450px;
   background-color: bisque;
   background-image: url(https://www.google.com/maps/vt/data=DHCB-VDDrZC-EPOXyyeRudIGlqix2_rFAdfvLGM4TAKDejud0KZGa0oqXtTrSCldJvNt__sjzPkvMkSNrSczYdaJpm_jHB1gb_RY1E764RRaSOZXAPc9-h1OrznxYoRtpK8KWvBZrdYeQ9bqJggeVSwpcG4wHabPTAbJRdIwUvVeCs8T8MSxmRIQT69LnO8lYwV1SV4kTbWOnN-XvmwMW6nfwBvG4XeOpTYmdNjqdBN0ntTyc4K15ovh);
-  background-size: cover;
+  background-size: 100% 40%;
 }
+/* backround image moze da se ubaci vise slika,idu jedna ispod druge po redosledu,isto vazi i za podesvanja za te slike. */
