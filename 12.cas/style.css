@@ -1,0 +1,26 @@
+body {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 0.67cm;
+}
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.main {
+  width: 600px;
+  margin: auto;
+  height: 300px;
+  background-color: bisque;
+}
+.child {
+  background-color: aqua;
+}
+/* absolutne velicine :cm,mm,in (inci, 1in=96px),px, points (pt) , pc (picas, 1picas=12points) */
+/* relativne velicine : */
+/* em je relativan u odnosu na font size od parent elementa */
+/* rem je relativan u odnosu na font size od body ne nasledjuje velicinu od svog roditelja (gleda kolika je velicina na celoj stranici(gleda body))  */
+/* vw - viewport of width i ona je relativna u odnosu na sirinu ekrana */
+/* vh - viewport of height i ona je relativna u odnosu na visinu ekrana */
+/* vmin - viewport of min - relativna 1% u odnosu na manji deo (sirina ili visina ) */
+/* vmax - viewport of max - relativna 1% u odnosu na veci deo (sirina ili visina ) */
+/* % je relativan u odnosu na parent elemente */
