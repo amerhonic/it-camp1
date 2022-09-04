@@ -217,8 +217,91 @@ a {
 }
 .tekstic {
   text-align: center;
+  padding-bottom: 80px;
 }
 .tekstic h5 {
   padding-bottom: 7px;
   color: #f95c19;
+}
+.oksford {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.placeholder {
+  display: flex;
+  text-align: center;
+  margin-left: 57px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-right: 57px;
+  justify-content: center;
+  width: 98%;
+  padding-bottom: 150px;
+}
+.pot {
+  width: 47%;
+  padding-top: 40px;
+}
+.pot form {
+  flex-wrap: wrap;
+}
+.miks {
+  width: 27%;
+}
+.pot input {
+  margin-bottom: 10px;
+  background-color: transparent;
+  width: 55%;
+  padding: 7px;
+  border: 1px solid #afaebc;
+  border-radius: 3px;
+}
+.pot textarea {
+  margin-bottom: 10px;
+  background-color: transparent;
+  width: 55%;
+}
+.pot button {
+  background-color: #f95c19;
+  color: white;
+  border: 1px;
+  border-radius: 15px;
+}
+.miks h5 {
+  color: #f95c19;
+  text-align: justify;
+  margin-bottom: 8px;
+}
+.miks h2 {
+  text-align: justify;
+  margin-bottom: 6px;
+}
+.miks p {
+  text-align: justify;
+  color: #9291a1;
+  font-size: 12px;
+}
+textarea {
+  border: 1px solid #afaebc;
+  padding: 7px;
+  margin-bottom: 50px;
+}
+.pot button {
+  margin-top: 30px;
+  width: 55%;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+.pot i {
+  color: white;
+  margin-left: 5px;
+}
+.pot input {
+  color: #9291a1;
+}
+.pot button {
+  cursor: pointer;
+}
+.pot button:hover {
+  background-color: #2f2e41;
 }
