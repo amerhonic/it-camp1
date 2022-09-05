@@ -305,3 +305,9 @@ textarea {
 .pot button:hover {
   background-color: #2f2e41;
 }
+.mapa {
+  margin-left: 57px;
+  margin-right: 57px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
