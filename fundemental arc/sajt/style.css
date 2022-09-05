@@ -327,11 +327,14 @@ textarea {
   width: 98%;
 }
 .mapetina {
-  width: 49%;
 }
 .naslovcetina {
-  width: 49%;
+  display: flex;
 }
 .mapetina img {
   height: 400px;
+}
+.jbg img {
+  width: 20%;
+  flex-wrap: wrap;
 }
