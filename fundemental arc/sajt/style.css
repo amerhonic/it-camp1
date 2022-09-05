@@ -236,7 +236,7 @@ a {
   margin-right: 57px;
   justify-content: center;
   width: 98%;
-  padding-bottom: 150px;
+  padding-bottom: 220px;
 }
 .pot {
   width: 47%;
@@ -310,4 +310,28 @@ textarea {
   margin-right: 57px;
   padding-left: 16px;
   padding-right: 16px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.naslovcic {
+  text-align: center;
+}
+.naslovcic h5 {
+  margin-bottom: 5px;
+}
+.naslovcic h2 {
+  margin-bottom: 70px;
+}
+.mapica {
+  width: 98%;
+}
+.mapetina {
+  width: 49%;
+}
+.naslovcetina {
+  width: 49%;
+}
+.mapetina img {
+  height: 400px;
 }
