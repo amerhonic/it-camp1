@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.box1 {
+  background-color: rgba(203, 176, 229, 0.6);
+  /* float: left; */
+}
+.box2 {
+  background-color: rgb(227, 218, 236);
+  /* float: left; */
+}
+.box3 {
+  background-color: rgb(45, 147, 106);
+  /* clear: both; */
+  /* float: left; */
+}
+.box4 {
+  background-color: rgb(0, 0, 0);
+  /* float: left; */
+}
+.box5 {
+  background-color: rgb(94, 164, 20);
+}
+.box6 {
+  background-color: rgb(1, 14, 68);
+}
+.box7 {
+  background-color: rgb(139, 10, 18);
+}
+.box8 {
+  background-color: rgb(17, 131, 151);
+}

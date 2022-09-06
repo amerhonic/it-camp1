@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+img {
+  width: 50%;
+  height: 60vh;
+  float: left;
+  margin-right: 1rem;
+}
+h1 {
+  text-align: center;
+}
+.first {
+  width: 40%;
+  height: 55vh;
+  background-color: rgb(52, 206, 206);
+  clear: both;
+  float: left;
+}
+.second {
+  width: 40%;
+  height: 75vh;
+  background-color: rgb(243, 110, 110);
+  clear: both;
+  float: right;
+}
