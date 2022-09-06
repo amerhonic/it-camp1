@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+}
+header {
+  width: 100vw;
+  height: vw;
+  background-color: bisque;
+}
+
+.linkovi {
+  display: inline-block;
+}
+.linkovi {
+  margin-left: 58rem;
+}
+.linkovi a {
+  margin: 12px;
+  text-decoration: none;
+  color: rgb(162, 170, 109);
+  justify-content: center;
+}
+/* .linkovi a:visited {
+  color: aqua;
+  padding: 0.5rem;
+  background-color: bisque;
+}
+.linkovi a:hover {
+  padding: 0.5rem;
+  background-color: black;
+  border-radius: 10px;
+} */
+/* linkovi a:active je za stilove dok se pritiska link */
