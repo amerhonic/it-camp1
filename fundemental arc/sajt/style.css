@@ -325,16 +325,28 @@ textarea {
 }
 .mapica {
   width: 98%;
-}
-.mapetina {
-}
-.naslovcetina {
-  display: flex;
-}
-.mapetina img {
-  height: 400px;
+  height: 425px;
 }
 .jbg img {
-  width: 20%;
-  flex-wrap: wrap;
+  float: left;
+  width: 55%;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  height: auto;
+}
+.naslovcetina {
+  display: inline-block;
+  padding-left: 25px;
+  border: 1px solid;
+  height: 100%;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-color: white;
+  border-color: transparent;
+  width: 43%;
+  padding-top: 105px;
+  font-size: 18px;
+}
+.naslovcetina p {
+  font-size: 14px;
 }
