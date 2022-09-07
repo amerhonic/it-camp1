@@ -350,3 +350,7 @@ textarea {
 .naslovcetina p {
   font-size: 14px;
 }
+.naslovcetina i {
+  margin-right: 8px;
+  color: #f95c19;
+}
