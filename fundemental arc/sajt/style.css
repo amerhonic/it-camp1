@@ -313,6 +313,7 @@ textarea {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding-bottom: 200px;
 }
 .naslovcic {
   text-align: center;
@@ -349,8 +350,13 @@ textarea {
 }
 .naslovcetina p {
   font-size: 14px;
+  margin-bottom: 25px;
 }
 .naslovcetina i {
-  margin-right: 8px;
-  color: #f95c19;
+  margin-right: 10px;
+  color: #ffaf0f;
+  font-size: 14px;
+}
+span {
+  padding-left: 27px;
 }
