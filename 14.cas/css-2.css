@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.first {
+  width: 50%;
+  height: 50vh;
+  /* background-color: rgba(58, 58, 175, 0.1); */
+  background-color: rgba(58, 58, 175, 0.1);
+  /* dodat je opacity ba ceo sadrzaj kontejnera sa clasom first */
+  opacity: 0;
+}
+.second {
+  width: 50%;
+  height: 50vh;
+  background-color: rgb(60, 180, 60);
+}
