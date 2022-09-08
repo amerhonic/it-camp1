@@ -313,7 +313,7 @@ textarea {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-bottom: 200px;
+  padding-bottom: 20px;
 }
 .naslovcic {
   text-align: center;
@@ -359,4 +359,47 @@ textarea {
 }
 span {
   padding-left: 27px;
+}
+.call {
+  text-align: center;
+  padding-bottom: 120px;
+}
+.call button {
+  background-color: #f95c19;
+  color: white;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-color: transparent;
+  border-radius: 5px;
+}
+.call i {
+  margin-right: 5px;
+}
+.pading {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding: 0px 16px;
+  margin: 0px 57px;
+  width: 98%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.dole {
+  display: inline-block;
+  width: 98%;
+}
+.dole h5 {
+  text-align: end;
+}
+.dole h2 {
+  display: inline-block;
+}
+.dole p {
+  display: inline-block;
+}
+.dole h5 {
+  display: inline-block;
 }
