@@ -403,6 +403,10 @@ span {
   color: #f95c19;
 }
 .dole {
-  margin: 0px 57px;
-  padding: 0px 16px;
+  width: 50%;
+  height: 100px;
+}
+.major {
+  margin-left: 700px;
+  width: 52%;
 }
