@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Slab", serif;
+}
+.main {
+  margin: 5px auto;
+  width: 90%;
+  height: 200vh;
+  background: rgb(100, 70, 70);
+}
+.box1 {
+  height: 120px;
+  width: 150px;
+  background-color: aqua;
+  /* position: relative; */
+  position: absolute;
+  top: 0px;
+  left: 40%;
+  /* relative omogucava da pozicioniram element po zelji,top,bottom itd */
+  /* absolute ne cuva prostor na kom se nalazio tu ce se automatski naci sledeci element ispod onog na kom je position absolute,parent elemnt mora imati positon razlici od static kako bi pomeranje bilo relative u odnosu na njega, a ne na celu stranicu.  */
+  /*  */
+}
+.box2 {
+  height: 120px;
+  width: 150px;
+  background-color: rgb(189, 209, 209);
+}
+.box3 {
+  height: 120px;
+  width: 150px;
+  background-color: rgb(7, 186, 31);
+  position: fixed;
+  z-index: 10;
+  left: 20;
+}
+.box4 {
+  height: 120px;
+  width: 150px;
+  background-color: rgb(68, 32, 201);
+  position: sticky;
+  left: 350px;
+  top: 250px;
+  z-index: 10;
+}
+.box5 {
+  height: 120px;
+  width: 150px;
+  background-color: rgb(224, 107, 35);
+  position: relative;
+  z-index: 20;
+}
+/* z-index ne moze na static */
