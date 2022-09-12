@@ -1,9 +1,12 @@
 * {
   box-sizing: border-box;
+  margin: 0px;
 }
 .glava {
   margin: 0px 40px;
   display: flex;
+  height: 70px;
+  padding-top: 15px;
 }
 
 ul {
@@ -16,7 +19,28 @@ a {
 
 nav {
   margin-left: 850px;
+  padding-top: 15px;
 }
 nav li {
   display: inline-block;
+}
+a {
+  margin: 10px;
+  padding-top: 25px;
+  color: rgba(28, 104, 139, 0.9);
+}
+
+.main {
+  background-color: rgb(144, 176, 154);
+  height: 100vh;
+}
+.advised h1 {
+  color: rgba(28, 104, 139, 0.9);
+  font-size: 25px;
+  padding-top: 5px;
+}
+.biggup {
+  margin: 0px 40px;
+  height: 100vh;
+  padding-top: 35px;
 }
