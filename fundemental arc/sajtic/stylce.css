@@ -44,3 +44,9 @@ a {
   height: 100vh;
   padding-top: 35px;
 }
+.slika img {
+  height: 80vh;
+  width: 60vh;
+  float: left;
+  margin-right: 15px;
+}
