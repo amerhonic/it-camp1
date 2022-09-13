@@ -377,11 +377,11 @@ span {
   margin-right: 5px;
 }
 .pading {
-  height: 250px;
+  height: 200px;
   background-color: #222132;
   width: 1446px;
   padding-top: 80px;
-  padding-bottom: 230px;
+  padding-bottom: 170px;
 }
 .dole {
   display: flex;
@@ -403,7 +403,7 @@ span {
   border-radius: 3px;
   border: 1px solid;
   padding-left: 25px;
-  background-color: #2f2e41;
+  background-color: #222132;
   border-color: rgb(96, 91, 91);
 }
 .navi h2 {
