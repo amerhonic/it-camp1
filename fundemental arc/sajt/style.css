@@ -377,35 +377,55 @@ span {
   margin-right: 5px;
 }
 .pading {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  margin-right: 0px;
-  width: 103%;
-  padding-top: 100px;
-  padding-bottom: 100px;
   height: 250px;
   background-color: #222132;
-  padding-right: 0px;
-  margin-bottom: 250px;
-}
-.dole h2 {
-  color: white;
-  display: inline-block;
-}
-.dole p {
-  color: #c5c5d2;
-  float: left;
-}
-
-.major {
-  font-size: 14px;
-  color: #f95c19;
+  width: 1446px;
+  padding-top: 80px;
+  padding-bottom: 230px;
 }
 .dole {
-  width: 50%;
-  height: 100px;
+  display: flex;
+  margin-left: 93px;
+  margin-right: 93px;
 }
-.major {
-  margin-left: 700px;
-  width: 52%;
+.major h5 {
+  position: relative;
+  left: 300px;
+  color: #f95c19;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.major input {
+  position: relative;
+  left: 300px;
+  width: 450px;
+  padding: 6px;
+  border-radius: 3px;
+  border: 1px solid;
+  padding-left: 25px;
+  background-color: #2f2e41;
+  border-color: rgb(96, 91, 91);
+}
+.navi h2 {
+  color: white;
+  font-size: 25px;
+}
+.navi p {
+  color: #c5c5d2;
+  font-size: 12px;
+}
+.major button {
+  color: #f95c19;
+  position: relative;
+  left: 755px;
+  bottom: 30px;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: transparent;
+  background-color: #f95c19;
+  color: white;
+  cursor: pointer;
 }
