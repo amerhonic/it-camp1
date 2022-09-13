@@ -456,6 +456,7 @@ span {
 .bigdrip {
   position: relative;
   left: 400px;
+  padding-right: 110px;
 }
 .bigdrip h5 {
   margin-bottom: 25px;
