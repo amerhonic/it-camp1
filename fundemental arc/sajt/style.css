@@ -471,6 +471,16 @@ span {
 }
 .foot {
   background-color: #222132;
-  height: 100px;
+  height: 70px;
   width: 1446px;
+  padding-top: 30px;
+}
+.belong {
+  display: flex;
+  margin-left: 93px;
+  margin-right: 93px;
+}
+.queen p {
+  font-size: 11px;
+  color: #dbdbe9;
 }
