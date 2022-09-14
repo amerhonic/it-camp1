@@ -484,3 +484,16 @@ span {
   font-size: 11px;
   color: #dbdbe9;
 }
+.hodor p {
+  font-size: 11px;
+  color: #dbdbe9;
+  position: relative;
+  left: 800px;
+}
+.hodor i {
+  color: #f95c19;
+}
+.hodor span {
+  color: #f95c19;
+  padding-left: 0px;
+}
