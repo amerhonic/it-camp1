@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.glava img {
+  height: 70px;
+  width: 100px;
+  margin-left: 150px;
+}
+
+.main {
+}
+.border {
+  border-bottom: 1px solid;
+}
