@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.parent {
+  display: flex;
+  width: 80%;
+  height: 300px;
+  margin: 40px auto;
+  background-color: brown;
+  justify-content: space-between;
+}
+.slidza {
+  width: 20%;
+}
+.slidza img {
+  height: 300px;
+}
+.oks {
+  width: 64%;
+}
