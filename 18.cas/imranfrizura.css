@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.main {
+  width: 75%;
+  height: 400px;
+  background-color: rgb(171, 225, 35);
+  display: flex;
+  margin: 0px auto;
+  /* align-items: flex-end; */
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.box1 {
+  /* flex-grow: 1; */
+  /* align-self: flex-start; */
+  /* width: 150px; */
+  height: 150px;
+  background-color: rgb(240, 68, 185);
+}
+.box2 {
+  /* align-self: center; */
+  /* flex-grow: 1; */
+  /* width: 150px; */
+  height: 150px;
+  background-color: crimson;
+}
+.box3 {
+  /* flex-shrink: 1; */
+  /* flex-grow: 1; */
+  /* width: 150px; */
+  height: 150px;
+  background-color: rgb(12, 94, 209);
+}
