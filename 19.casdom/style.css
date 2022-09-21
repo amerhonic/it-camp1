@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Crimson Text", serif;
+  width: 100vw;
+}
+
+.glava {
+  width: 1463px;
+  height: 100px;
+  background-color: blue;
+  display: flex;
+  padding-top: 20px;
+}
+.logo {
+  font-size: 22px;
+  color: white;
+}
+.logo h2 {
+  margin-left: 120px;
+  position: relative;
+  top: 8px;
+}
+.links {
+  display: flex;
+}
+.links ul {
+  display: flex;
+  list-style: none;
+}
+a {
+  position: relative;
+  left: 750px;
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+  bottom: 20px;
+}
+button {
+  position: relative;
+  left: 750px;
+  bottom: 30px;
+  margin-left: 40px;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  border-color: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+img {
+  height: 200px;
+  position: relative;
+  top: 100px;
+  left: 500px;
+}
+.xy {
+  margin-top: 250px;
+  width: 100vw;
+  height: 277px;
+  background-color: rgb(127, 174, 16);
+}
+.child {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: black;
+  margin-left: 10px;
+}
+.child:nth-of-type(2) {
+  position: relative;
+  left: 95.5%;
+  top: 60%;
+}
+
+.xy:hover .child:nth-last-of-type(2) {
+  animation: isus 3s ease-in-out backwards 2 alternate;
+}
+@keyframes isus {
+  33% {
+    transform: translateX(1376px);
+  }
+}
+.xy:hover .child:nth-last-of-type(1) {
+  animation: krka 3s ease-in-out backwards 2 alternate;
+}
+@keyframes krka {
+  33% {
+    transform: translate(1446px);
+  }
+}
