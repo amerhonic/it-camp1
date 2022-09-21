@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.parent {
+  margin: 30px auto;
+  height: 400px;
+  width: 400px;
+  background-color: rgb(167, 219, 116);
+  display: flex;
+}
+.child {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+}
+.child {
+  align-self: flex-end;
+  left: 350px;
+}
+.parent:hover .child {
+  animation: top-to-bottom 1s ease-in-out;
+}
+@keyframes top-to-bottom {
+  0% {
+    transform: translateY(0px);
+  }
+  33% {
+    transform: translateX(-350px);
+  }
+}
