@@ -16,12 +16,12 @@
   background-color: black;
   position: relative;
 }
-.child {
+.child:nth-of-type(2) {
   align-self: flex-end;
-  left: 350px;
+  left: 300px;
 }
-.parent:hover .child {
-  animation: top-to-bottom 1s ease-in-out;
+.parent:hover .child:nth-of-type(2) {
+  animation: top-to-bottom 4s ease-in-out forwards 3 alternate;
 }
 @keyframes top-to-bottom {
   0% {
@@ -29,5 +29,15 @@
   }
   33% {
     transform: translateX(-350px);
+  }
+}
+.child:nth-of-type(1) {
+}
+.parent:hover .child:nth-of-type(1) {
+  animation: oks 4s ease-in-out forwards 3 alternate;
+}
+@keyframes oks {
+  33% {
+    transform: translateX(350px);
   }
 }
