@@ -57,11 +57,12 @@ img {
   position: relative;
   top: 100px;
   left: 500px;
+  margin-bottom: 40px;
 }
 .xy {
   margin-top: 250px;
   width: 100vw;
-  height: 277px;
+  height: 247px;
   background-color: rgb(127, 174, 16);
 }
 .child {
@@ -90,6 +91,9 @@ img {
 }
 @keyframes krka {
   33% {
-    transform: translate(1446px);
+    transform: translate(-1376px);
   }
+}
+footer {
+  height: 200px;
 }
