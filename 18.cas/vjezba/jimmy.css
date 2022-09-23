@@ -287,3 +287,139 @@ button {
     padding-right: 20px;
   }
 }
+
+@media (min-width: 501px) and (max-width: 678px) {
+  body {
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .main {
+    width: 500px;
+  }
+  .isto {
+    width: 200px;
+    height: 180px;
+    background-color: rgb(222, 219, 219);
+    position: relative;
+    left: -85px;
+  }
+  .isto p {
+    text-align: center;
+  }
+  .isto h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .isto i {
+    margin-bottom: 20px;
+    position: relative;
+    left: 60px;
+    font-size: 35px;
+  }
+
+  .glava {
+    width: 650px;
+  }
+  .logo h2 {
+    margin-left: 5px;
+  }
+  a {
+    position: relative;
+    left: 150px;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    bottom: 20px;
+  }
+  .durden {
+    position: relative;
+    left: 250px;
+    top: -420px;
+    width: 200px;
+    height: 180px;
+    background-color: rgb(222, 219, 219);
+  }
+  .durden i {
+    position: relative;
+    left: 115px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    font-size: 35px;
+  }
+  .durden h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .durden p {
+    text-align: center;
+  }
+  .okretanje {
+    width: 250px;
+    height: 220px;
+    background-color: rgb(222, 219, 219);
+  }
+  .margin {
+    margin-left: 100px;
+  }
+  .okretanje {
+    position: relative;
+    top: 50px;
+    left: -49px;
+  }
+  .okretanje i {
+    position: relative;
+    left: 115px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    font-size: 35px;
+  }
+  .okretanje h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .okretanje p {
+    text-align: center;
+  }
+  .ado {
+    width: 250px;
+    height: 220px;
+    background-color: rgb(222, 219, 219);
+    position: relative;
+    top: -370px;
+    left: 340px;
+  }
+  .ado i {
+    position: relative;
+    left: 115px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    font-size: 35px;
+  }
+  .ado h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .ado p {
+    text-align: center;
+  }
+  .slika img {
+    position: relative;
+    top: -300px;
+    left: -30px;
+  }
+  button {
+    position: relative;
+    left: 120px;
+    bottom: 30px;
+    margin-left: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
