@@ -298,7 +298,7 @@ button {
     width: 500px;
   }
   .isto {
-    width: 280px;
+    width: 220px;
     height: 180px;
     background-color: rgb(222, 219, 219);
     position: relative;
@@ -315,7 +315,7 @@ button {
   .isto i {
     margin-bottom: 20px;
     position: relative;
-    left: 140px;
+    left: 100px;
     font-size: 35px;
   }
 
@@ -335,15 +335,15 @@ button {
   }
   .durden {
     position: relative;
-    left: 320px;
+    left: 280px;
     top: -395px;
-    width: 280px;
+    width: 220px;
     height: 180px;
     background-color: rgb(222, 219, 219);
   }
   .durden i {
     position: relative;
-    left: 140px;
+    left: 100px;
     margin-bottom: 20px;
     padding-top: 30px;
     font-size: 35px;
@@ -356,7 +356,7 @@ button {
     text-align: center;
   }
   .okretanje {
-    width: 280px;
+    width: 220px;
     height: 180px;
     background-color: rgb(222, 219, 219);
     position: relative;
@@ -373,7 +373,7 @@ button {
   }
   .okretanje i {
     position: relative;
-    left: 115px;
+    left: 100px;
     margin-bottom: 20px;
     padding-top: 30px;
     font-size: 35px;
@@ -386,16 +386,16 @@ button {
     text-align: center;
   }
   .ado {
-    width: 280px;
+    width: 220px;
     height: 180px;
     background-color: rgb(222, 219, 219);
     position: relative;
     top: -290px;
-    left: 340px;
+    left: 270px;
   }
   .ado i {
     position: relative;
-    left: 140px;
+    left: 110px;
     margin-bottom: 20px;
     padding-top: 30px;
     font-size: 35px;
