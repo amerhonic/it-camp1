@@ -1,450 +1,96 @@
-* {
-  box-sizing: border-box;
-  margin: 0px;
-}
-.glava img {
-  height: 70px;
-  width: 100px;
-  margin-left: 150px;
-}
-
-.main {
-}
-.border {
-  border-bottom: 1px solid;
-}
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
 body {
-  font-family: "Crimson Text", serif;
+  margin: 200px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.glava {
-  width: 1463px;
-  height: 100px;
-  background-color: blue;
-  display: flex;
-  padding-top: 20px;
+h1 {
+  font-family: sans-serif;
+  color: rgb(63, 63, 63);
 }
-.logo {
-  font-size: 22px;
+
+.container {
+  display: flex;
+}
+
+.left-side p {
+  margin-bottom: 8px;
+}
+
+.left-side {
+  width: 100%;
+  height: 450px;
+}
+
+.right-side {
+  width: 800px;
+  height: 420px;
+  background-color: rgb(236, 238, 239);
+}
+
+p {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+.placeholder {
+  border: 1px solid rgb(215, 212, 212);
+  background-color: rgb(244, 244, 244);
+  border-radius: 5px;
+  width: 430px;
+  height: 40px;
+}
+
+.btn {
+  margin-left: 450px;
+  padding: 10px 25px;
+  font-size: 17px;
+  background-color: rgb(99, 102, 249);
+  border: 2px solid rgb(99, 102, 249);
+  border-radius: 7px;
   color: white;
 }
-.logo h2 {
-  margin-left: 120px;
-  position: relative;
-  top: 8px;
-}
-.links {
+
+.store {
   display: flex;
 }
-.links ul {
-  display: flex;
-  list-style: none;
+
+.google {
+  width: 184px;
+  height: 65px;
+  background-color: rgb(228, 228, 228);
+  border: 2px solid rgb(228, 228, 228);
+  border-radius: 5px;
 }
-a {
-  position: relative;
-  left: 750px;
-  color: white;
-  text-decoration: none;
-  margin-left: 30px;
-  bottom: 20px;
+
+.apple {
+  width: 184px;
+  height: 65px;
+  background-color: rgb(228, 228, 228);
+  border: 2px solid rgb(228, 228, 228);
+  margin-left: 20px;
+  border-radius: 5px;
 }
-button {
-  position: relative;
-  left: 750px;
-  bottom: 30px;
-  margin-left: 40px;
-  background-color: white;
+
+i {
+  color: rgb(94, 94, 95);
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.text {
   color: black;
-  border-radius: 20px;
-  border-color: transparent;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.home {
-  background-color: white;
-  margin-top: 100px;
-  margin-left: 100px;
+  margin-left: 20px;
 }
 
-.isto {
-  width: 250px;
-  height: 220px;
-  background-color: rgb(222, 219, 219);
-}
-.isto p {
-  text-align: center;
-}
-.isto h3 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-.isto i {
-  padding-top: 30px;
-  margin-bottom: 20px;
-  position: relative;
-  left: 115px;
-  font-size: 35px;
-}
-.okretanje {
-  width: 250px;
-  height: 220px;
-  background-color: rgb(222, 219, 219);
-}
-.margin {
-  margin-left: 100px;
-}
-.okretanje {
-  position: relative;
-  top: 50px;
-}
-.okretanje i {
-  position: relative;
-  left: 115px;
-  margin-bottom: 20px;
-  padding-top: 30px;
-  font-size: 35px;
-}
-.okretanje h3 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-.okretanje p {
-  text-align: center;
+.google:hover {
+  background-color: rgb(201, 201, 201);
 }
 
-.durden {
-  position: relative;
-  left: 400px;
-  top: -420px;
-  width: 250px;
-  height: 220px;
-  background-color: rgb(222, 219, 219);
-}
-.durden i {
-  position: relative;
-  left: 115px;
-  margin-bottom: 20px;
-  padding-top: 30px;
-  font-size: 35px;
-}
-.durden h3 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-.durden p {
-  text-align: center;
-}
-.ado {
-  width: 250px;
-  height: 220px;
-  background-color: rgb(222, 219, 219);
-  position: relative;
-  top: -370px;
-  left: 390px;
-}
-.ado i {
-  position: relative;
-  left: 115px;
-  margin-bottom: 20px;
-  padding-top: 30px;
-  font-size: 35px;
-}
-.ado h3 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-.ado p {
-  text-align: center;
-}
-.slika img {
-  position: relative;
-  top: -930px;
-  left: 700px;
-}
-@media (max-width: 500px) {
-  body {
-    font-size: 13px;
-    margin: 0px;
-    padding: 0px;
-  }
-  .main {
-    width: 500px;
-  }
-  .isto {
-    width: 250px;
-    height: 220px;
-    background-color: rgb(222, 219, 219);
-    position: relative;
-    left: -65px;
-  }
-  .isto p {
-    text-align: center;
-  }
-  .isto h3 {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  .isto i {
-    margin-bottom: 20px;
-    position: relative;
-    left: 60px;
-    font-size: 35px;
-  }
-
-  .glava {
-    width: 650px;
-  }
-  .logo h2 {
-    margin-left: 5px;
-  }
-  a {
-    position: relative;
-    left: 150px;
-    color: white;
-    text-decoration: none;
-    margin-left: 30px;
-    bottom: 20px;
-  }
-  .durden {
-    position: relative;
-    left: 320px;
-    top: -420px;
-    width: 250px;
-    height: 220px;
-    background-color: rgb(222, 219, 219);
-  }
-  .durden i {
-    position: relative;
-    left: 115px;
-    margin-bottom: 20px;
-    padding-top: 30px;
-    font-size: 35px;
-  }
-  .durden h3 {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  .durden p {
-    text-align: center;
-  }
-  .okretanje {
-    width: 250px;
-    height: 220px;
-    background-color: rgb(222, 219, 219);
-  }
-  .margin {
-    margin-left: 100px;
-  }
-  .okretanje {
-    position: relative;
-    top: 50px;
-    left: -49px;
-  }
-  .okretanje i {
-    position: relative;
-    left: 115px;
-    margin-bottom: 20px;
-    padding-top: 30px;
-    font-size: 35px;
-  }
-  .okretanje h3 {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  .okretanje p {
-    text-align: center;
-  }
-  .ado {
-    width: 250px;
-    height: 220px;
-    background-color: rgb(222, 219, 219);
-    position: relative;
-    top: -370px;
-    left: 340px;
-  }
-  .ado i {
-    position: relative;
-    left: 115px;
-    margin-bottom: 20px;
-    padding-top: 30px;
-    font-size: 35px;
-  }
-  .ado h3 {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  .ado p {
-    text-align: center;
-  }
-  .slika img {
-    position: relative;
-    top: -300px;
-    left: -30px;
-  }
-  button {
-    position: relative;
-    left: 120px;
-    bottom: 30px;
-    margin-left: 40px;
-    background-color: white;
-    color: black;
-    border-radius: 20px;
-    border-color: transparent;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+.apple:hover {
+  background-color: rgb(201, 201, 201);
 }
 
-@media (min-width: 501px) and (max-width: 678px) {
-  body {
-    font-size: 10px;
-    margin: 0px;
-    padding: 0px;
-  }
-  .main {
-    width: 500px;
-  }
-  .isto {
-    width: 220px;
-    height: 180px;
-    background-color: rgb(222, 219, 219);
-    position: relative;
-    left: -85px;
-    top: -50px;
-  }
-  .isto p {
-    text-align: center;
-  }
-  .isto h3 {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  .isto i {
-    margin-bottom: 20px;
-    position: relative;
-    left: 100px;
-    font-size: 35px;
-  }
-
-  .glava {
-    width: 650px;
-  }
-  .logo h2 {
-    margin-left: 5px;
-  }
-  a {
-    position: relative;
-    left: 150px;
-    color: white;
-    text-decoration: none;
-    margin-left: 30px;
-    bottom: 20px;
-  }
-  .durden {
-    position: relative;
-    left: 280px;
-    top: -395px;
-    width: 220px;
-    height: 180px;
-    background-color: rgb(222, 219, 219);
-  }
-  .durden i {
-    position: relative;
-    left: 100px;
-    margin-bottom: 20px;
-    padding-top: 30px;
-    font-size: 35px;
-  }
-  .durden h3 {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  .durden p {
-    text-align: center;
-  }
-  .okretanje {
-    width: 220px;
-    height: 180px;
-    background-color: rgb(222, 219, 219);
-    position: relative;
-    left: -50px;
-    top: -80px;
-  }
-  .margin {
-    margin-left: 63px;
-  }
-  .okretanje {
-    position: relative;
-    top: 50px;
-    left: -49px;
-  }
-  .okretanje i {
-    position: relative;
-    left: 100px;
-    margin-bottom: 20px;
-    padding-top: 30px;
-    font-size: 35px;
-  }
-  .okretanje h3 {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  .okretanje p {
-    text-align: center;
-  }
-  .ado {
-    width: 220px;
-    height: 180px;
-    background-color: rgb(222, 219, 219);
-    position: relative;
-    top: -290px;
-    left: 270px;
-  }
-  .ado i {
-    position: relative;
-    left: 110px;
-    margin-bottom: 20px;
-    padding-top: 30px;
-    font-size: 35px;
-  }
-  .ado h3 {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  .ado p {
-    text-align: center;
-  }
-  .slika img {
-    position: relative;
-    top: -290px;
-    left: 10px;
-    width: 90vw;
-  }
-  button {
-    position: relative;
-    left: 120px;
-    bottom: 30px;
-    margin-left: 40px;
-    background-color: white;
-    color: black;
-    border-radius: 20px;
-    border-color: transparent;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 10px;
-  }
-  .links {
-    position: relative;
-    left: -70px;
-  }
+.btn:hover {
+  background-color: rgb(85, 87, 220);
 }
