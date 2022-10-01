@@ -1,0 +1,11 @@
+body {
+  font-family: "Stalinist One", cursive;
+}
+i {
+  color: red;
+}
+.container {
+  line-height: 3rem;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.7rem;
+}
